@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 img {
@@ -37,9 +37,9 @@ img {
 
 
 .container {
-    max-width: 40rem;
+    max-width: 30rem;
     background-color: var(--White);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 2rem;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.05);
     margin-bottom: 2rem;
@@ -47,19 +47,17 @@ img {
 
 .container p, h1 {
     text-align: center;
-    padding: 1rem;
-    margin: 0;
-    padding: 1.5rem;
+    margin: 10px;
 }
 
 .container h1 {
     color: var(--Dark-blue);
-    font-size: 2.6rem;
+    font-size: 22px;
+    padding: 10px 0;
 }
 
 .container p {
     color: var(--Grayish-blue);
     font-size: 15px;
-    padding: 0 4rem;
-    margin-bottom: 2rem;
+    padding-bottom: 10px;
 }
